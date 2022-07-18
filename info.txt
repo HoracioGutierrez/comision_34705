@@ -1,3 +1,5 @@
 GIT : Software gestor de versiones + desarrollo colaborativo
 
-GITHUB : 
+GITHUB : una pagina web que funciona como servidor (cliente)
+
+PUSH DESDE VS CODE
