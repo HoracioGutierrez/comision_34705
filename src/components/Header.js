@@ -1,11 +1,13 @@
-function Header() {
+import Nav from "./Nav"
+
+const Header = () => {
     return (
         <header id="header">
             <h1 className="titulo" >Titlo</h1>
-            <nav>
-                <a href="#">link</a>
-                <a href="#">link</a>
-            </nav>
+            <img src="/logo192.png"/>
+            <Nav
+                type="header"
+            />
         </header>
     )
 }

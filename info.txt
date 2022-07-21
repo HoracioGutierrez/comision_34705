@@ -19,3 +19,69 @@ function foo(){}
 
 foo()    ===     <foo/>
 foo()    ===     <foo></foo>
+
+
+
+
+SASS / LESS : Son preprocessadores de CSS
+
+
+PROPS : Son las propiedades de un componente
+
+
+
+/***********************************************************************************/
+
+IMPLEMENTACION DE BOOTSTRAP EN HEADER.js
+
+
+import {Container,Button} from "react-bootstrap"
+
+const Header = () => {
+    return (
+        <Container>
+            soy container
+            <Button>Soy boton</Button>
+        </Container>
+    )
+}
+
+export default Header
+
+
+/***********************************************************************************/
+
+
+
+COMPONENTES :
+
+Tipos de componentes : 
+    _ Estructurales o layout : App , Header , Footer , Main , 
+    _ Funcionalidad : Button , Form , Input , Navbas , Cards 
+
+
+
+CONDICIONAL TERNARIO : 
+
+
+
+
+
+
+PROPS : Son los parametros de un componente
+
+
+function foo(a,b,c=true){
+
+}
+
+
+
+foo(1,2,3)
+
+
+
+
+
+
+<foo a="1" />

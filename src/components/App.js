@@ -1,15 +1,14 @@
+import Footer from "./Footer"
 import Header from "./Header"
 
-function App() {
+const App = () => {
     return (
         <>
-            <Header/>
+            <Header />
             <main>
                 <h2>Home</h2>
             </main>
-            <footer>
-                <p>footer</p>
-            </footer>
+            <Footer test={true} nombre="Horacio"/>
         </>
     )
 }
