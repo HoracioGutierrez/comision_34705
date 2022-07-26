@@ -85,3 +85,70 @@ foo(1,2,3)
 
 
 <foo a="1" />
+
+
+BEM : https://en.bem.info/methodology/
+
+
+
+
+DESTRUCTURING : Sacar valores de un objeto o un array
+
+
+const obj = { propiedad:valor }
+
+const {propiedad} = obj
+
+
+
+ESTADO : Son variables que se crean adentro de un componente y sirven para guardar informacion que si la modificamos, se va a ver reflejada en el componente automaticamente.
+
+
+
+HOOK : Son funciones que integran nuevas funcionalidades a un componente como por ejemplo tener estado, ciclos de vida, etc.
+
+
+useState : hook que nos da un estado nuevo y un metodo para modificarlo y siempre da un array como resultado
+
+
+
+
+//1) seleccionar el boton
+    //2) Se agrega un click al boton
+    //3) aumentar la variable contador
+    //4) seleccionar los dos textos 
+    //5) texto.innerText = ""
+
+
+
+
+
+
+class App extends Component {
+
+    constructor(props){
+        super(props)
+        this.state = {
+            propiedad:valor
+        }
+    }
+
+    render(){
+        return (
+            <div>
+                <h1>{this.state.propiedad}</h1>
+            </div>
+        )
+    }
+
+}
+
+
+boton.addEventListener("click",()=>{})
+form.addEventListener("submit",()=>{})
+
+<button onClick={()=>{}}>Click</button>
+<form onSubmit={()=>{}}>
+    <input type="text" />
+    <input type="text" />
+    <button>Enviar</button>

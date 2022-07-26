@@ -1,6 +1,5 @@
-const Nav = (parametros) => {
-
-  if(parametros.type == "header"){
+const Nav = ({type}) => {
+  if(type == "header"){
     return (
       <nav>
         <a href="#">link-header</a>

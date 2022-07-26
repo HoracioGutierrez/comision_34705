@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
-#header {
+.header {
     background-color: yellow;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     align-items: center;
+
+    &__image {
+        width: 24px;
+        height: 24px;
+    }
 }

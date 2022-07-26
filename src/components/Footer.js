@@ -1,13 +1,11 @@
 import Nav from "./Nav"
 
-const Footer = (props) => {
-    
-    console.log(props)
-    console.log(props.nombre)
+const Footer = ({contador,nombre}) => {
 
     return (
         <footer>
-            <p>Bienvenido {props.nombre}</p>
+            <p>Bienvenido {nombre}</p>
+            <p>El contador va : {contador}</p>
             <Nav
                 type="footer"
             />
